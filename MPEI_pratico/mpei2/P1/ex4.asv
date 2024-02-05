@@ -1,0 +1,15 @@
+import prob.*
+import prob2.*
+
+N = 1e6;
+lancamentos = 20;
+
+
+for x = 0:20
+    P(x+1) = prob(6,lancamentos,0.5,N);
+
+end
+
+P
+
+stem(0:20,P)

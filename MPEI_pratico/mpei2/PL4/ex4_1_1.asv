@@ -1,0 +1,21 @@
+clear;
+clc;
+%% Alinea a)
+alfabeto = ['a':'z' 'A':'Z'];
+imin = 6;
+imax = 20;
+N=10;
+
+words = generate_uniform(N, imin, imax, alfabeto)
+
+%% Alinea b)
+clear;
+alfabeto = ['a':'z'];
+length(alfabeto)
+imin = 6;
+imax = 20;
+N=10;
+
+p = readtable("prob_pt.txt");
+p = p(1:26)
+words2 = generate_uniform(N, imin, imax, alfabeto, p)

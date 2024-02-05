@@ -1,0 +1,3 @@
+[submodule "Práticas/MPEI_GAval"]
+	path = Práticas/MPEI_GAval
+	url = git@github.com:jnluis/MPEI_GAval.git
